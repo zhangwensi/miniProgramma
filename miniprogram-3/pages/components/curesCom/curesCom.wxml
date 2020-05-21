@@ -1,0 +1,11 @@
+<!--pages/components/curesCom/curesCom.wxml-->
+<view class="wipper">
+ <view class="img">
+  <image class="imgs" src="/pages/assets/images/2.jpg" mode="widthFit"></image>
+ </view>
+ <view class="content">
+  <text class="title">如何学习计算机技术</text>
+  <text class="indurce">课程介绍:保持好心态即可保持好心态即可保持好心态即可</text>
+  <text class="peoples">观看人数：2000人</text>
+ </view>
+</view>

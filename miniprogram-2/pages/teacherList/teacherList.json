@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "teacher":"../components/x-component/x-teacher"
+  },
+  "navigationBarTitleText": "华科名师"
+
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "teacherLsit":"/pages/components/teacherCom/teacherCom"
+  },
+  "navigationBarTitleText": "讲师列表"
+}

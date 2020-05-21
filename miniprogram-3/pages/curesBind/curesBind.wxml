@@ -1,0 +1,28 @@
+<!--pages/components/curesCom/curesCom.wxml-->
+<view class="wipper" wx:for="{{curesItem}}" wx:for-item="aaa" wx:for-index="idx" wx:key="idx">
+ <view class="img">
+  <image class="imgs" src="{{aaa.curesImg}}" mode="widthFit"></image>
+ </view>
+ <view class="content">
+  <text class="title"><text>{{idx+1}}</text>--{{aaa.title}}</text>
+  <text class="indurce">类型:{{aaa.indures}} <text class="isStar" wx:if="{{aaa.isStar}}">--星级课程</text></text>
+  <text class="peoples">观看人数：{{aaa.persons > 2000 ? aaa.persons/1000 +'k' : aaa.persons}}人</text>
+ </view>
+</view>
+<block wx:for="{{indexData}}" wx:key="*this">
+<switch/>
+<text>{{item}}</text>
+</block>
+
+<button bindtap="_handle">增加</button>
+
+<!-- <block wx:if="{{score == 100}}">
+ <view>满分</view>
+ <view>keyi</view>
+</block>
+
+<block wx:else>
+ <view>几个哦</view>
+  <view>太差了</view>
+</block> -->
+

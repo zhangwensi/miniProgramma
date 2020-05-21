@@ -1,0 +1,7 @@
+<view class="curseList">
+  <image src="/pages/assets/images/1.png" mode="aspectFil"></image>
+  <text class="curseTitle">华科子星</text>
+  <text class="curseContent">华科子星华科子星华科子星华科子星华科子星</text>
+  <text class="curseItem">华科子星华科子星华科子星华科子星华科子星</text>
+</view>
+

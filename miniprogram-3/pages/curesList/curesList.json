@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "curesList":"/pages/components/curesCom/curesCom"
+  }
+}

@@ -1,0 +1,9 @@
+.teacherList  {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.teacherList teacher {
+  margin: 10px 0px;
+}

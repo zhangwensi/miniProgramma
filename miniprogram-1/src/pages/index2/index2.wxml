@@ -1,0 +1,8 @@
+<view>
+  <swiper autoplay indicator-dots indicator-color="blue" indicator-active-color="red" circular interval="3000">
+    <swiper-item><image src="../../images/1.jpg" mode="widthFix"></image></swiper-item>
+    <swiper-item><image src="../../images/2.jpg" mode="widthFix"></image></swiper-item>
+    <swiper-item><image src="../../images/3.jpg" mode="widthFix"></image></swiper-item>
+    <swiper-item><image src="../../images/4.jpg" mode="widthFix"></image></swiper-item>
+  </swiper>
+</view>

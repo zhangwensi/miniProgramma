@@ -1,0 +1,34 @@
+{
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/teacherList/teacherList",
+      "text": "讲师列表",
+      "iconPath": "pages/assets/images/teacher_nor.png",
+      "selectedIconPath": "pages/assets/images/teacher_sel.png"
+    },
+    {
+      "pagePath": "pages/curesList/curesList",
+      "text": "课程列表",
+      "iconPath": "pages/assets/images/cures_nor.png",
+      "selectedIconPath": "pages/assets/images/cures_sel.png"
+    },{
+      "pagePath": "pages/curesBind/curesBind",
+      "text": "测试页",
+      "iconPath": "pages/assets/images/test_nor.png",
+      "selectedIconPath": "pages/assets/images/test_sel.png"
+    }]
+  },
+  "pages": [
+    "pages/teacherList/teacherList",
+    "pages/curesList/curesList",
+    "pages/curesBind/curesBind"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTitleText": "学习系统",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

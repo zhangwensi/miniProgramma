@@ -1,0 +1,5 @@
+<view class="teacherItem">
+  <image src="../../assets/images/1.png" mode="aspectFit"></image>
+  <text>华科讲师</text>
+</view>
+

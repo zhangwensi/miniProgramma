@@ -1,0 +1,8 @@
+.wipper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.wipper teacherLsit {
+  margin: 10px 0;
+}

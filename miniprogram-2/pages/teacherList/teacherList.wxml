@@ -1,0 +1,9 @@
+<view class="teacherList">
+  <teacher/>
+  <teacher/>
+  <teacher/>
+  <teacher/>
+  <teacher/>
+  <teacher/>
+</view>
+

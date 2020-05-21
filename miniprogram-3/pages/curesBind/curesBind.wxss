@@ -1,0 +1,46 @@
+/* pages/curesBind/curesBind.wxss */
+/* pages/components/curesCom/curesCom.wxss */
+/* pages/curesList/curesList.wxss */
+.wipper {
+  height: 120px;
+  background-color: #8FBC8F;
+  border-bottom: 2px solid #FFD700;
+  display: flex;
+}
+.wipper .img {
+  height: 100px;
+  width: 140px;
+  background-color: red;
+  margin: 10px;
+}
+.wipper .imgs {
+  width: 100%;
+  height: 100%;
+}
+.wipper .content {
+  flex: 1;
+}
+.wipper .title {
+  margin: 10px 0px;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.wipper .indurce {
+  display: block;
+  width: 200px;
+  margin: 20px 0px;
+  font-size: 14px;
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.wipper .peoples {
+  display: block;
+  font-size: 12px;
+  margin: 20px 0px;
+}
+.wipper .isStar {
+  font-weight: bold;
+  color: #FFD700;
+}

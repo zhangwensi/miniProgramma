@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "curseItem":"../components/x-curseList/x-curseItem"
+  },
+  "navigationBarTitleText": "我的课程"
+}

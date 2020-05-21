@@ -1,0 +1,5 @@
+<!--pages/components/teacherCom/teacherCom.wxml-->
+<view class="teacherList">
+ <image src="/pages/assets/images/1.jpg" class="img" mode="heightFix"></image>
+ <text class="title">张伟老师</text>
+</view>

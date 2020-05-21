@@ -1,0 +1,22 @@
+/* pages/components/teacherCom/teacherCom.wxss */
+.teacherList {
+  width: 100px;
+  height: 130px;
+  background-color: orange;
+  border-radius: 5px;
+  text-align: center;
+}
+.teacherList .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:5px dashed red;
+  box-sizing: border-box;
+}
+.teacherList .title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}

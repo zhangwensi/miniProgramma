@@ -1,0 +1,7 @@
+<!--src/pages/index1/index.wxml-->
+<view>
+  <view>{{name}}</view>
+  <view>{{hello}}</view>
+  <view wx:if="{{condition}}"> </view>
+  <checkbox checked="{{checked?true:false}}"></checkbox>
+</view>
