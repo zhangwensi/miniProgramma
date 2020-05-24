@@ -1,0 +1,8 @@
+<!--pages/eventDemo/eventDemo.wxml-->
+<view class="wipper">
+<!-- 使用block包住组件 -->
+  <block wx:for="{{teacherListItem}}" wx:key="id">
+  <!-- 使用for循环中的item的数据以属性的方式传递给组件 -->
+    <teacherList teacherListItem="{{item}}" />
+  </block>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/components/teacherEvent/teacherEvent.wxml-->
+<view class="teacherList {{isDel? 'delTs' : ''}}" bindlongpress="longTouch">
+ <image src="{{teacherListItem.teacherImg}}" class="img" mode="heightFix"></image>
+ <text class="title">{{teacherListItem.teacherName}}</text>
+ <view  class="delBtn" hidden="{{!isDel}}" bindtap="delTl">X</view>
+</view>
+

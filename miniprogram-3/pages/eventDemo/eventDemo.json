@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "teacherList":"/pages/components/teacherEvent/teacherEvent"
+  },
+  "navigationBarTitleText": "事件绑定demo"
+}

@@ -1,0 +1,7 @@
+<!--pages/eventBind/eventBind.wxml-->
+<!-- 冒泡事件 -->
+<view class="first" bind:tap="handtone">1
+  <view class="second" bind:tap="handttwo">2
+    <view class="three" bind:tap="handthree">3</view>
+  </view>
+</view>

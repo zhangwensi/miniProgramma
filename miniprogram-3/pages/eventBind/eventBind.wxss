@@ -1,0 +1,16 @@
+/* pages/eventBind/eventBind.wxss */
+.three {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+.second {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+.first {
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+}

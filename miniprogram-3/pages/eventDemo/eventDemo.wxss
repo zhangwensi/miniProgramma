@@ -1,0 +1,9 @@
+/* pages/eventDemo/eventDemo.wxss */
+.wipper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.wipper teacherList {
+  margin: 10px 0;
+}

@@ -1,27 +1,38 @@
 {
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/teacherList/teacherList",
-      "text": "讲师列表",
-      "iconPath": "pages/assets/images/teacher_nor.png",
-      "selectedIconPath": "pages/assets/images/teacher_sel.png"
-    },
-    {
-      "pagePath": "pages/curesList/curesList",
-      "text": "课程列表",
-      "iconPath": "pages/assets/images/cures_nor.png",
-      "selectedIconPath": "pages/assets/images/cures_sel.png"
-    },{
-      "pagePath": "pages/curesBind/curesBind",
-      "text": "测试页",
-      "iconPath": "pages/assets/images/test_nor.png",
-      "selectedIconPath": "pages/assets/images/test_sel.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/teacherList/teacherList",
+        "text": "讲师列表",
+        "iconPath": "pages/assets/images/teacher_nor.png",
+        "selectedIconPath": "pages/assets/images/teacher_sel.png"
+      },
+      {
+        "pagePath": "pages/curesList/curesList",
+        "text": "课程列表",
+        "iconPath": "pages/assets/images/cures_nor.png",
+        "selectedIconPath": "pages/assets/images/cures_sel.png"
+      },
+      {
+        "pagePath": "pages/curesBind/curesBind",
+        "text": "测试页",
+        "iconPath": "pages/assets/images/test_nor.png",
+        "selectedIconPath": "pages/assets/images/test_sel.png"
+      },
+      {
+        "pagePath": "pages/eventDemo/eventDemo",
+        "text": "删除测试页",
+        "iconPath": "pages/assets/images/test_nor.png",
+        "selectedIconPath": "pages/assets/images/test_sel.png"
+      }
+    ]
   },
   "pages": [
     "pages/teacherList/teacherList",
     "pages/curesList/curesList",
-    "pages/curesBind/curesBind"
+    "pages/curesBind/curesBind",
+    "pages/eventBind/eventBind",
+    "pages/eventDemo/eventDemo"
   ],
   "window": {
     "backgroundTextStyle": "light",

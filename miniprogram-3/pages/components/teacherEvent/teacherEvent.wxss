@@ -1,0 +1,66 @@
+/* pages/components/teacherCom/teacherCom.wxss */
+.teacherList {
+  width: 100px;
+  height: 130px;
+  background-color: orange;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+.teacherList .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:5px dashed red;
+  box-sizing: border-box;
+}
+.teacherList .title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+.delBtn {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  border-radius:10px;
+}
+
+.delTs {
+  animation: del-tl 1s 0s infinite;
+}
+/* 
+**使用CSS3中的动画属性 定义长时间触摸 删除的样式
+*/
+
+@keyframes  del-tl {
+  0%{
+    transform: rotate(0deg);
+  }
+  10%,20%,30% {
+    transform: rotate(-4deg);
+  }
+  15%,25%,35%{
+    transform: rotate(4deg);
+  }
+  40% {
+    transform: rotate(-2deg);
+  }
+  45% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  } 
+}

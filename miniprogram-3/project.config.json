@@ -67,6 +67,20 @@
 					"id": -1,
 					"name": "数据动态渲染",
 					"pathName": "pages/curesBind/curesBind",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "事件绑定",
+					"pathName": "pages/eventBind/eventBind",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "事件绑定Demo",
+					"pathName": "pages/eventDemo/eventDemo",
 					"scene": null
 				}
 			]
