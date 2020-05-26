@@ -1,0 +1,4 @@
+/* pages/02-button/02-button.wxss */
+button ::after {
+  border: none;
+}

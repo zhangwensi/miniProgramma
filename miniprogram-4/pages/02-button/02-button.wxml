@@ -1,0 +1,9 @@
+<button size="mini" loading>登录</button>
+
+<button size="mini" disabled>登录</button>
+
+<button size="default" type="warn" >登录</button>
+
+<button size="default" plain type="success" >登录</button>
+
+<button open-type="getUserInfo" bindgetuserinfo="_getInfo">获取用户信息</button>

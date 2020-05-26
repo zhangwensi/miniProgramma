@@ -1,0 +1,37 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1844517_fb59rxc76k8.eot?t=1590508964568'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1844517_fb59rxc76k8.eot?t=1590508964568#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAATsAAsAAAAACYgAAASfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDKgqGIIUuATYCJAMUCwwABCAFhG0HVxtBCMgOJR2JwABgQAFgPHy/3//WPnK/WhKz9sErnoiiJVBJMN0sFLqGRmS6d+o7atNmSXtC3TizmjpNgBAjyImYE3Ji+s7BMdO1z4Z5QHPJLhvgBAcUkZgfwv8gL+r/AM9wYQJPE+g0YSB0Jre4GroohEmBeMAyJHRxqZSY7NAuNCEri3gCVXt6hN0C8Fj//fgHkdGFpGbCzAu3cjSQ/rPTz42qcbZxrqsIYJdnwG0dGWtAIe6Fmm5QmaE1Kp2fRDtHQLvYL/Gz80/uw0abjXCdOH0xtOukf3gUWRJEQxB1E/ZEuPCzk8yyxZ1RIaOYQ4WE4o3ImQ9RVVd0oh/4T1wDQTKni5oR9+cRR8cuST4dKN+x3xENuru2Ldl52MtiqbFa65Zu3bzcU5arFSVu6czt4zzLF83YMd6HHL/TQQAPt6lQbXRi+LJDOwK4JWF4r4rFBO/aJSt7eUUsXrZpi7daUUolfmiM32evte4u7mixlNzO2H7ab7nvslN9zxXfkoXFu/ud9jNrO7DsrjVghVJ6R6mV5eJbydt2kYpSa02/X40sNx66tW/96cs3L6LnD8RT8gwltVkFYJlbhxTFMYFQySGoTuYciaM3trsb4JHxu+vXnJlxKnDc7l4wbvvMnQh92KvG1snZzleU7qqN1jyXy5Ys17lh6XMSTLfGjMJGYrdHJxj1U0Zr9ZmjvsyZjYmlX+Z6LPPv7j/dptIMiXV2C3RzTp93SV/ETttaPLaixkj2bp4ep1pmwxuv4GuLh2kbxxZvncYWga2YRluzhmQMqm9yNQQZXK90a9chWzNpjEFbMuhHv2vw8Teuj8drfj+i3T17ho+a5/Zc47E4uQmJPRcnuW0rLf/6tbRiq7vN8s1M9tA8d5t36Fg+am+HPPmqIR/lkQBpdLw9zxMyn9758fRadDenm/BggqjtM4ztN6nNX78Ebp2NHHZF6pkD6puL++mxudMRI9JVgx7TMR5jsF10GGx9DxIHDEga226v6RQ3tfuAaxyaO2fzSMR0vhHNPauBnZk7YeyUX6NbDVHj1uiXGXlwBkrPBH+KDJlmGEbYK3/DTgNQIn0Erb15qapCV4zLIucM+xvHT9/EtLkk/+/SVcCPv62byNEaV1A6sdOEnZp9PtUUoGUrcecK6lrejTLr7a6uOmMsidNH1kLboBflyEb2UiS0G7EhaTNuyNq/bEQW7BpUXfag0e4YOq3KW99liEAlSgdWTAYI/fZC0usTZP1uIwv2OVSjvkOjP1TQ6Vp47NhlIVg8S6BIidIQHcMJVs2ZaEkr4UZ2JcUMNpCCk6sTaylBZL1ERGi4N5pHmSihjDniECZSkmiCFjgjkQvnUQYDR5gFTkeppVCtJJkTw8LosBeFqjkj4E4TUEgSigahw3AElhrHhFY7S3Dfz1eiMAYzIAkxTT+0tSgCEds9IUKo8BTIPJEpVdO29BcNwYgkkdA8jibgGBFy0UAxiCEOwRw+TIeiJgmlzREwSxRG7ei0otD6JcZlzD6iWwr3qZEiR4kajea8wA02D3IexpImUcu2aQeTHaSpywitwmfkgVwXMymKQzlBAwAA') format('woff2'),
+  url('//at.alicdn.com/t/font_1844517_fb59rxc76k8.woff?t=1590508964568') format('woff'),
+  url('//at.alicdn.com/t/font_1844517_fb59rxc76k8.ttf?t=1590508964568') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1844517_fb59rxc76k8.svg?t=1590508964568#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+/* 
+*字体标签配置
+*/
+.login {
+  font-family: "iconfont" !important;
+  font-size: 36rpx;
+  color: orange;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-zhanghao:before {
+  content: "\e607";
+}
+
+.icon-password:before {
+  content: "\e606";
+}
+
+.icon-Group:before {
+  content: "\e6a3";
+}
+
+.icon-xianshi_huaban:before {
+  content: "\e66f";
+}

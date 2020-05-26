@@ -1,0 +1,4 @@
+<!--pages/01-viewusing/01-viewusing.wxml-->
+<view hover-class="viewTap" hover-stay-time="2000">
+view
+</view>

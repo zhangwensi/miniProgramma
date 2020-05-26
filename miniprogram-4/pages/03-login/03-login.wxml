@@ -1,0 +1,32 @@
+<!--pages/03-login/03-login.wxml-->
+<view class="container">
+  <image src="/assets/images/login.jpg" class="header"/>
+  <form bindsubmit="_submit">
+    <view class="content">
+      <view class="formItem">
+        <text class="login icon-zhanghao"></text>
+        <input name="accountV" type="text" placeholder="请输入账号" class="account" bindinput="_checkL"></input>
+        <icon type="{{pass?'success':'warn'}}"></icon>
+      </view>
+      <view class="formItem">
+        <text class="login icon-password"></text>
+        <input name="passwordV" type="{{showPass?'text':'password'}}" placeholder="请输入密码" class="password"></input>
+        <text class="login {{showPass?'icon-xianshi_huaban':'icon-Group'}}" bindtap="_showP"></text>
+      </view>
+      <view class="formItem spaceBetween">
+        <checkbox-group name="remiberP">
+          <checkbox value="1" color="orange">记住密码</checkbox>
+        </checkbox-group>
+        <checkbox-group name="loginP">
+          <checkbox value="1" color="orange">自动登录</checkbox>
+        </checkbox-group>
+      </view>
+      <view class="formItem">
+        <button type="primary" class="button" form-type="submit">登录</button>
+      </view>
+      <view class="formItem">
+        <button plain="true" class="button">注册</button>
+      </view>
+    </view>
+  </form>
+</view>

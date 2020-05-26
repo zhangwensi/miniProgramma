@@ -5,3 +5,17 @@
     <view class="three" bind:tap="handthree">3</view>
   </view>
 </view>
+
+<text>{{tool.func()}}</text>
+
+
+<!-- wxs -->
+<wxs module="tool">
+  function test () {
+    console.log('xxxxxxx')
+    return "dddddd"
+  }
+  module.exports = {
+    func: test
+  }
+</wxs>
